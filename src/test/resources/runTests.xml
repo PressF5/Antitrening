@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Antitreningi" verbose="1" configfailurepolicy="continue">
+
+    <test name="Check login.">
+        <packages>
+            <package name="ru.antitreningi.tests"/>
+        </packages>
+    </test>
+
+</suite>

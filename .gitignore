@@ -1,0 +1,9 @@
+/target/
+/test-output/
+/build
+*.class
+.idea
+.allure
+.settings
+.classpath
+.project
