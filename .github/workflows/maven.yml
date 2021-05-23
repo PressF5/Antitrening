@@ -28,10 +28,7 @@ jobs:
       uses: actions/checkout@v2    
     - name: Start tests
       run: mvn test    
-    - name: Create Report
-      run: mvn site
-      
-    - name: Test marketplace action
+    - name: Create report
       uses: simple-elf/allure-report-action@master
       if: always()
       id: allure-report
@@ -40,7 +37,7 @@ jobs:
         gh_pages: gh-pages
         allure_report: allure-report
         allure_history: allure-history
-    - name: Deploy report to Github Pages
+    - name: Deploy report
       if: always()
       uses: peaceiris/actions-gh-pages@v2
       env:
