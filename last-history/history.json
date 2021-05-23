@@ -1,0 +1,42 @@
+{
+  "5084067bef816aa7582679f0a063488b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "342723122bad9ad2",
+      "reportUrl" : "https://PressF5.github.io/Antitrening/10//#testresult/342723122bad9ad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621813626886,
+        "stop" : 1621813634049,
+        "duration" : 7163
+      }
+    } ]
+  },
+  "7f79bc7c8a412bea8ce1bb9e991395bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b50f80a86b140b71",
+      "reportUrl" : "https://PressF5.github.io/Antitrening/10//#testresult/b50f80a86b140b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621813634298,
+        "stop" : 1621813639358,
+        "duration" : 5060
+      }
+    } ]
+  }
+}
