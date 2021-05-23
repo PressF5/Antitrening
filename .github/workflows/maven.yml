@@ -1,7 +1,7 @@
 name: Antitrening
 on:
   schedule:
-    - cron:  '45 16 * * *'
+    - cron:  '0 18 * * *'
 jobs:
   tests:
     runs-on: ubuntu-latest
