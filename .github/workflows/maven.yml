@@ -30,21 +30,16 @@ jobs:
       run: mvn test    
     - name: Create Report
       run: mvn site
-    - name: Get allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
-      with:
-        ref: gh-pages
-        path: gh-pages
-    - name: Setup allure report
+      
+    - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
       if: always()
       id: allure-report
       with:
-        allure_results: allure-results
+        allure_results: build/allure-results
+        gh_pages: gh-pages
+        allure_report: allure-report
         allure_history: allure-history
-        keep_reports: 20
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
