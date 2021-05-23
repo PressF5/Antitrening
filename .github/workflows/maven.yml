@@ -1,7 +1,7 @@
 name: Antitrening
 on:
   schedule:
-    - cron:  '0 9 * * *'
+    - cron:  '0 16 * * *'
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -16,4 +16,18 @@ jobs:
     - name: Start Selenoid Server
       uses: Xotabu4/selenoid-github-action@v1    
     - name: Start tests
-      run: mvn test
+      run: mvn test       
+    - name: Create Report
+      uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: allure-report
+        path: ./allure-report
+    - name: Deploy report
+      uses: JamesIves/github-pages-deploy-action@3.1.0
+      if: always()
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: allure-report # The folder the action should deploy.
+        TARGET_FOLDER: docs  
