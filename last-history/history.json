@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef0a6a80f2e408e",
-      "reportUrl" : "https://PressF5.github.io/Antitrening/12//#testresult/ef0a6a80f2e408e",
+      "uid" : "4ed6c6d6205d380e",
+      "reportUrl" : "https://PressF5.github.io/Antitrening/13//#testresult/4ed6c6d6205d380e",
       "status" : "passed",
       "time" : {
-        "start" : 1621865805268,
-        "stop" : 1621865811566,
-        "duration" : 6298
+        "start" : 1621867563515,
+        "stop" : 1621867571600,
+        "duration" : 8085
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "caf5f3efc5784554",
-      "reportUrl" : "https://PressF5.github.io/Antitrening/12//#testresult/caf5f3efc5784554",
+      "uid" : "d50f1c11f0ed5f05",
+      "reportUrl" : "https://PressF5.github.io/Antitrening/13//#testresult/d50f1c11f0ed5f05",
       "status" : "passed",
       "time" : {
-        "start" : 1621865811778,
-        "stop" : 1621865816426,
-        "duration" : 4648
+        "start" : 1621867571888,
+        "stop" : 1621867577245,
+        "duration" : 5357
       }
     } ]
   }
