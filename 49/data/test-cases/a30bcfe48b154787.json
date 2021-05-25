@@ -1,0 +1,712 @@
+{
+  "uid" : "a30bcfe48b154787",
+  "name" : "invalidLoginAndPassword",
+  "fullName" : "ru.antitreningi.tests.LoginTest.invalidLoginAndPassword",
+  "historyId" : "5084067bef816aa7582679f0a063488b",
+  "time" : {
+    "start" : 1621984452548,
+    "stop" : 1621984461161,
+    "duration" : 8613
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1621984452411,
+      "stop" : 1621984452437,
+      "duration" : 26
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://antitreningi.ru",
+      "time" : {
+        "start" : 1621984452664,
+        "stop" : 1621984458101,
+        "duration" : 5437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка титула страницы.",
+      "time" : {
+        "start" : 1621984458145,
+        "stop" : 1621984458240,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "АнтиТренинги - платформа для вашей онлайн-школы"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по кнопке.",
+      "time" : {
+        "start" : 1621984458241,
+        "stop" : 1621984458772,
+        "duration" : 531
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //button[@data-type='login']\") click()",
+        "time" : {
+          "start" : 1621984458298,
+          "stop" : 1621984458772,
+          "duration" : 474
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "login"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод логина или пароля.",
+      "time" : {
+        "start" : 1621984458772,
+        "stop" : 1621984459262,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //input\") send keys(a)",
+        "time" : {
+          "start" : 1621984458778,
+          "stop" : 1621984458854,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") send keys()",
+        "time" : {
+          "start" : 1621984458854,
+          "stop" : 1621984458895,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") set value(bogdantkachenko.dn@gmail.com123)",
+        "time" : {
+          "start" : 1621984458895,
+          "stop" : 1621984459262,
+          "duration" : 367
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loginOrPassword",
+        "value" : "bogdantkachenko.dn@gmail.com123"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по кнопке.",
+      "time" : {
+        "start" : 1621984459262,
+        "stop" : 1621984459489,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //button[@type='submit']\") click()",
+        "time" : {
+          "start" : 1621984459263,
+          "stop" : 1621984459487,
+          "duration" : 224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "submit"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка ошибки при вводе некоректного логина или пароля.",
+      "time" : {
+        "start" : 1621984459489,
+        "stop" : 1621984459580,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //span[@class='sc-hBURRC eRJZMx']\") should have(text 'Incorrect E-mail')",
+        "time" : {
+          "start" : 1621984459491,
+          "stop" : 1621984459580,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Incorrect E-mail"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод логина или пароля.",
+      "time" : {
+        "start" : 1621984459580,
+        "stop" : 1621984459933,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //input\") send keys(a)",
+        "time" : {
+          "start" : 1621984459581,
+          "stop" : 1621984459659,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") send keys()",
+        "time" : {
+          "start" : 1621984459659,
+          "stop" : 1621984459711,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") set value(bogdantkachenko.dn@gmail.com)",
+        "time" : {
+          "start" : 1621984459711,
+          "stop" : 1621984459933,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loginOrPassword",
+        "value" : "bogdantkachenko.dn@gmail.com"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по кнопке.",
+      "time" : {
+        "start" : 1621984459933,
+        "stop" : 1621984460110,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //button[@type='submit']\") click()",
+        "time" : {
+          "start" : 1621984459933,
+          "stop" : 1621984460110,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "submit"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод логина или пароля.",
+      "time" : {
+        "start" : 1621984460111,
+        "stop" : 1621984460463,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //input\") send keys(a)",
+        "time" : {
+          "start" : 1621984460111,
+          "stop" : 1621984460173,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") send keys()",
+        "time" : {
+          "start" : 1621984460173,
+          "stop" : 1621984460222,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //input\") set value(Qwerty1234)",
+        "time" : {
+          "start" : 1621984460222,
+          "stop" : 1621984460463,
+          "duration" : 241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loginOrPassword",
+        "value" : "Qwerty1234"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Клик по кнопке.",
+      "time" : {
+        "start" : 1621984460463,
+        "stop" : 1621984460675,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //button[@type='submit']\") click()",
+        "time" : {
+          "start" : 1621984460463,
+          "stop" : 1621984460675,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "submit"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка ошибки при вводе некоректного логина или пароля.",
+      "time" : {
+        "start" : 1621984460675,
+        "stop" : 1621984461157,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //span[@class='sc-hBURRC eRJZMx']\") should have(text 'Wrong password')",
+        "time" : {
+          "start" : 1621984460676,
+          "stop" : 1621984461157,
+          "duration" : 481
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Wrong password"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.antitreningi.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.antitreningi.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidLoginAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Antitreningi"
+  }, {
+    "name" : "suite",
+    "value" : "Check login."
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.antitreningi.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-825"
+  }, {
+    "name" : "thread",
+    "value" : "3630@fv-az74-825.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 35
+      },
+      "items" : [ {
+        "uid" : "5c46586b0a00dd19",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/48//#testresult/5c46586b0a00dd19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621983066268,
+          "stop" : 1621983074425,
+          "duration" : 8157
+        }
+      }, {
+        "uid" : "f784bf0871e04ff",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/47//#testresult/f784bf0871e04ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621980713443,
+          "stop" : 1621980721600,
+          "duration" : 8157
+        }
+      }, {
+        "uid" : "af6c16744f0af2c7",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/46//#testresult/af6c16744f0af2c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621979166593,
+          "stop" : 1621979176301,
+          "duration" : 9708
+        }
+      }, {
+        "uid" : "5c673484e7890568",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/45//#testresult/5c673484e7890568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621976930578,
+          "stop" : 1621976938859,
+          "duration" : 8281
+        }
+      }, {
+        "uid" : "ae697780d51cb349",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/44//#testresult/ae697780d51cb349",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621975608777,
+          "stop" : 1621975616801,
+          "duration" : 8024
+        }
+      }, {
+        "uid" : "257da5993301630",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/43//#testresult/257da5993301630",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621973897456,
+          "stop" : 1621973905439,
+          "duration" : 7983
+        }
+      }, {
+        "uid" : "c0e73b78fd8f97ef",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/42//#testresult/c0e73b78fd8f97ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621972648646,
+          "stop" : 1621972657109,
+          "duration" : 8463
+        }
+      }, {
+        "uid" : "2c101dea56aa56c4",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/41//#testresult/2c101dea56aa56c4",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Wrong password</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621971047105.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621971047105.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621971035509,
+          "stop" : 1621971047551,
+          "duration" : 12042
+        }
+      }, {
+        "uid" : "1b1c21392186089c",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/40//#testresult/1b1c21392186089c",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Wrong password</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621967861085.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621967861085.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621967849343,
+          "stop" : 1621967861531,
+          "duration" : 12188
+        }
+      }, {
+        "uid" : "2aa109dab2d1722b",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/39//#testresult/2aa109dab2d1722b",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Wrong password</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621964918645.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621964918645.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621964902062,
+          "stop" : 1621964919031,
+          "duration" : 16969
+        }
+      }, {
+        "uid" : "ade09d5a0c3373e0",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/38//#testresult/ade09d5a0c3373e0",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621960155324.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621960155324.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621960143913,
+          "stop" : 1621960155755,
+          "duration" : 11842
+        }
+      }, {
+        "uid" : "69e70d86ad31be36",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/37//#testresult/69e70d86ad31be36",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621958041670.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621958041670.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621958030483,
+          "stop" : 1621958042104,
+          "duration" : 11621
+        }
+      }, {
+        "uid" : "43b242ea24e68fa6",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/36//#testresult/43b242ea24e68fa6",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621955420122.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621955420122.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621955409227,
+          "stop" : 1621955420464,
+          "duration" : 11237
+        }
+      }, {
+        "uid" : "fcaf25a0e7fcff4e",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/35//#testresult/fcaf25a0e7fcff4e",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621953244341.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621953244341.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621953232185,
+          "stop" : 1621953244763,
+          "duration" : 12578
+        }
+      }, {
+        "uid" : "1fa6bc1874111780",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/34//#testresult/1fa6bc1874111780",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621951299897.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621951299897.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621951288906,
+          "stop" : 1621951300331,
+          "duration" : 11425
+        }
+      }, {
+        "uid" : "3aa656cb3772cb96",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/33//#testresult/3aa656cb3772cb96",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621948341412.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621948341412.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621948330269,
+          "stop" : 1621948341866,
+          "duration" : 11597
+        }
+      }, {
+        "uid" : "fe093af360526132",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/32//#testresult/fe093af360526132",
+        "status" : "failed",
+        "statusDetails" : "Element should have text 'Неправильный E-mail' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621944878574.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621944878574.0.html\nTimeout: 4 s.",
+        "time" : {
+          "start" : 1621944867795,
+          "stop" : 1621944879023,
+          "duration" : 11228
+        }
+      }, {
+        "uid" : "2744e7683b9ff98c",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/31//#testresult/2744e7683b9ff98c",
+        "status" : "failed",
+        "statusDetails" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621943388336.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621943388336.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
+        "time" : {
+          "start" : 1621943378563,
+          "stop" : 1621943388918,
+          "duration" : 10355
+        }
+      }, {
+        "uid" : "b0588d0c508dbf7c",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/30//#testresult/b0588d0c508dbf7c",
+        "status" : "failed",
+        "statusDetails" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941672541.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941672541.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
+        "time" : {
+          "start" : 1621941662476,
+          "stop" : 1621941673145,
+          "duration" : 10669
+        }
+      }, {
+        "uid" : "2d364dcb5cf46700",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/29//#testresult/2d364dcb5cf46700",
+        "status" : "failed",
+        "statusDetails" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621940254877.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621940254877.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
+        "time" : {
+          "start" : 1621940245414,
+          "stop" : 1621940255480,
+          "duration" : 10066
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a30bcfe48b154787.json",
+  "parameterValues" : [ ]
+}
