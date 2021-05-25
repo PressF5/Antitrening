@@ -28,11 +28,11 @@ public class LoginTest extends BaseTest {
     @Test
     public void invalidLoginAndPassword() {
         enterLogin("bogdantkachenko.dn@gmail.com123").
-                checkLoginOrPasswordError("Неправильный E-mail").
+                checkLoginOrPasswordError("Incorrect E-mail").
                 enterLoginOrPassword("bogdantkachenko.dn@gmail.com").
                 clickOnButton("submit").
                 enterLoginOrPassword("Qwerty1234").
                 clickOnButton("submit").
-                checkLoginOrPasswordError("Неправильный пароль");
+                checkLoginOrPasswordError("Incorrect password");
     }
 }
