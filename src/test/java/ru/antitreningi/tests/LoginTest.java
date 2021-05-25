@@ -33,6 +33,6 @@ public class LoginTest extends BaseTest {
                 clickOnButton("submit").
                 enterLoginOrPassword("Qwerty1234").
                 clickOnButton("submit").
-                checkLoginOrPasswordError("Incorrect password");
+                checkLoginOrPasswordError("Wrong password");
     }
 }
