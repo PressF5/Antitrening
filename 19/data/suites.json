@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Antitreningi",
+    "children" : [ {
+      "name" : "Check login.",
+      "children" : [ {
+        "name" : "ru.antitreningi.tests.LoginTest",
+        "children" : [ {
+          "name" : "invalidLoginAndPassword",
+          "uid" : "be76e8e2672995d0",
+          "parentUid" : "9049e9346152567c1745e6754b12e303",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621917068140,
+            "stop" : 1621917075190,
+            "duration" : 7050
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validLoginAndPassword",
+          "uid" : "77184a7ee7d3283",
+          "parentUid" : "9049e9346152567c1745e6754b12e303",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621917075445,
+            "stop" : 1621917080555,
+            "duration" : 5110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9049e9346152567c1745e6754b12e303"
+      } ],
+      "uid" : "9c9613fa595c14cf922c462a472aaa01"
+    } ],
+    "uid" : "4a3e1f6cf31dbc5ee0247f47bb8631db"
+  } ],
+  "name" : "suites"
+}
