@@ -2,6 +2,7 @@ package ru.antitreningi.page.login;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import ru.antitreningi.configurations.BasePage;
 
 import static com.codeborne.selenide.Condition.text;
@@ -24,6 +25,8 @@ public class LoginPage extends BasePage<LoginPage> {
 
     @Step("Ввод логина или пароля.")
     public LoginPage enterLoginOrPassword(String loginOrPassword) {
+        $(fieldLoginOrPassword).sendKeys(Keys.CONTROL + "a");
+        $(fieldLoginOrPassword).sendKeys(Keys.DELETE);
         $(fieldLoginOrPassword).setValue(loginOrPassword);
         return this;
     }
