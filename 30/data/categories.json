@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941672541.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941672541.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
+      "children" : [ {
+        "name" : "invalidLoginAndPassword",
+        "uid" : "b0588d0c508dbf7c",
+        "parentUid" : "374e6bd56e296937df9a9b43af838899",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621941662476,
+          "stop" : 1621941673145,
+          "duration" : 10669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "374e6bd56e296937df9a9b43af838899"
+    }, {
+      "name" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941678189.1.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621941678189.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
+      "children" : [ {
+        "name" : "validLoginAndPassword",
+        "uid" : "3749a9aaeb5a656",
+        "parentUid" : "8128a49dafeffbd877ac0f157135feaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621941673347,
+          "stop" : 1621941678596,
+          "duration" : 5249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8128a49dafeffbd877ac0f157135feaf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
