@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ru.antitreningi.tests.LoginTest",
+    "children" : [ {
+      "name" : "invalidLoginAndPassword",
+      "uid" : "fe093af360526132",
+      "parentUid" : "99eff277806444912c3548bfca56883f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621944867795,
+        "stop" : 1621944879023,
+        "duration" : 11228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validLoginAndPassword",
+      "uid" : "db2ba1d69f80ea1f",
+      "parentUid" : "99eff277806444912c3548bfca56883f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621944879236,
+        "stop" : 1621944884751,
+        "duration" : 5515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.antitreningi.tests.LoginTest"
+  } ],
+  "name" : "packages"
+}

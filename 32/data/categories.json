@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have text 'Неправильный E-mail' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621944878574.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621944878574.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "invalidLoginAndPassword",
+        "uid" : "fe093af360526132",
+        "parentUid" : "4471159050c57feef3a940686260fbfc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621944867795,
+          "stop" : 1621944879023,
+          "duration" : 11228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4471159050c57feef3a940686260fbfc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
