@@ -8,23 +8,31 @@ import ru.antitreningi.page.login.LoginPage;
 
 public class LoginTest extends BaseTest {
 
-    private LoginPage enterLoginAndPassword(String login, String password) {
+    private LoginPage enterLogin(String login) {
         LoginPage loginPage = open("", LoginPage.class);
         loginPage.checkTitle("АнтиТренинги - платформа для вашей онлайн-школы").
-                clickButtonSignIn().
-                enterLoginOrPassword("login", login).
-                enterLoginOrPassword("password", password).
-                clickButtonSignInForm();
+                clickOnButton("login").
+                enterLoginOrPassword(login).
+                clickOnButton("submit");
         return loginPage;
     }
 
     @Test
     public void validLoginAndPassword() {
-        enterLoginAndPassword("bogdantkachenko.dn@gmail.com", "Qwerty123").checkTitle("Все курсы");
+        enterLogin("bogdantkachenko.dn@gmail.com").
+                enterLoginOrPassword("Qwerty123").
+                clickOnButton("submit").
+                checkTitle("Все курсы");
     }
 
     @Test
     public void invalidLoginAndPassword() {
-        enterLoginAndPassword("bogdantkachenko.dn@gmail.com123", "Qwerty1234").checkLoginAndPasswordError();
+        enterLogin("bogdantkachenko.dn@gmail.com123").
+                checkLoginOrPasswordError("Неправильный E-mail").
+                enterLoginOrPassword("bogdantkachenko.dn@gmail.com").
+                clickOnButton("submit").
+                enterLoginOrPassword("Qwerty1234").
+                clickOnButton("submit").
+                checkLoginOrPasswordError("Неправильный пароль");
     }
 }

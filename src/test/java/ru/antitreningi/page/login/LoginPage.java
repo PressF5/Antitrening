@@ -9,27 +9,28 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage extends BasePage<LoginPage> {
 
-    @Step("Клик по кнопке \"Войти\" на главной странице сайта.")
-    public LoginPage clickButtonSignIn() {
-        $(By.xpath("//div/button[@data-modal='#signin']")).click();
+    private By buttonLogin = By.xpath("//button[@data-type='login']");
+    private By fieldLoginOrPassword = By.xpath("//input");
+    private By buttonSubmit = By.xpath("//button[@type='submit']");
+    private By errorMessage = By.xpath("//span[@class='sc-hBURRC eRJZMx']");
+
+    @Step("Клик по кнопке.")
+    public LoginPage clickOnButton(String type) {
+        if ("login".equals(type))
+            $(buttonLogin).click();
+        else if ("submit".equals(type)) $(buttonSubmit).click();
         return this;
     }
 
-    @Step("Ввод {type}.")
-    public LoginPage enterLoginOrPassword(String type, String loginOrPassword) {
-        $(By.xpath("//input[@name='" + type + "']")).setValue(loginOrPassword);
+    @Step("Ввод логина или пароля.")
+    public LoginPage enterLoginOrPassword(String loginOrPassword) {
+        $(fieldLoginOrPassword).setValue(loginOrPassword);
         return this;
     }
 
-    @Step("Клик по кнопке \"Войти\" в форме логина.")
-    public LoginPage clickButtonSignInForm() {
-        $(By.xpath("//button[@type='submit'][contains(text(),'Войти')]")).click();
-        return this;
-    }
-
-    @Step("Проверка ошибки при вводе некоректного логина и пароля.")
-    public LoginPage checkLoginAndPasswordError() {
-        $(By.xpath("//div[@class='responseError']")).shouldHave(text("Неверный логин или пароль"));
+    @Step("Проверка ошибки при вводе некоректного логина или пароля.")
+    public LoginPage checkLoginOrPasswordError(String message) {
+        $(errorMessage).shouldHave(text(message));
         return this;
     }
 }
