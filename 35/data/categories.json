@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have text 'Incorrect password' {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nElement: '<span class=\"sc-hBURRC eRJZMx\">Incorrect E-mail</span>'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621953244341.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621953244341.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "invalidLoginAndPassword",
+        "uid" : "fcaf25a0e7fcff4e",
+        "parentUid" : "23e4ca31d07a8b7d5c3f6049a37d7965",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621953232185,
+          "stop" : 1621953244763,
+          "duration" : 12578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23e4ca31d07a8b7d5c3f6049a37d7965"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
