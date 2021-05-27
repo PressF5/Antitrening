@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 65,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/65/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 64,
   "reportUrl" : "https://PressF5.github.io/Antitrening/64/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 46,
   "reportUrl" : "https://PressF5.github.io/Antitrening/46/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 45,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/45/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 2,
