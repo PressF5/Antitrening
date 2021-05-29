@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 47,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/47/",
+  "buildOrder" : 67,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/67/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -11,8 +11,8 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 46,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/46/",
+  "buildOrder" : 66,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/66/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -23,8 +23,8 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 45,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/45/",
+  "buildOrder" : 65,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/65/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -35,8 +35,8 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 44,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/44/",
+  "buildOrder" : 64,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/64/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -47,8 +47,8 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 43,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/43/",
+  "buildOrder" : 63,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/63/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -59,8 +59,8 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 42,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/42/",
+  "buildOrder" : 62,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/62/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
@@ -71,164 +71,164 @@
     "total" : 2
   }
 }, {
-  "buildOrder" : 41,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/41/",
+  "buildOrder" : 61,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/61/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 40,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/40/",
+  "buildOrder" : 60,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/60/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 39,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/39/",
+  "buildOrder" : 59,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/59/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 38,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/38/",
+  "buildOrder" : 58,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/58/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 37,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/37/",
+  "buildOrder" : 57,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/57/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 36,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/36/",
+  "buildOrder" : 56,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/56/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 35,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/35/",
+  "buildOrder" : 55,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/55/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 34,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/34/",
+  "buildOrder" : 54,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/54/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 1,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 33,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/33/",
+  "buildOrder" : 53,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/53/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 1,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 2
-  }
-}, {
-  "buildOrder" : 32,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/32/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 1,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 2
-  }
-}, {
-  "buildOrder" : 31,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/31/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 2,
-    "broken" : 0,
+    "broken" : 1,
     "skipped" : 0,
     "passed" : 0,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 30,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/30/",
+  "buildOrder" : 52,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/52/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 2,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 29,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/29/",
+  "buildOrder" : 51,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/51/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "failed" : 2,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 2
   }
 }, {
-  "buildOrder" : 28,
-  "reportUrl" : "https://PressF5.github.io/Antitrening/28/",
+  "buildOrder" : 50,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/50/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
+  "buildOrder" : 49,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/49/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
+  "buildOrder" : 48,
+  "reportUrl" : "https://PressF5.github.io/Antitrening/48/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
