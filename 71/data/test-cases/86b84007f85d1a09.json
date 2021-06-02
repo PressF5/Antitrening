@@ -1,12 +1,12 @@
 {
-  "uid" : "f1052d1f93979605",
+  "uid" : "86b84007f85d1a09",
   "name" : "validLoginAndPassword",
   "fullName" : "ru.antitreningi.tests.LoginTest.validLoginAndPassword",
   "historyId" : "7f79bc7c8a412bea8ce1bb9e991395bd",
   "time" : {
-    "start" : 1621989543676,
-    "stop" : 1621989549046,
-    "duration" : 5370
+    "start" : 1622664699551,
+    "stop" : 1622664705312,
+    "duration" : 5761
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1621989535181,
-      "stop" : 1621989535204,
-      "duration" : 23
+      "start" : 1622664690474,
+      "stop" : 1622664690500,
+      "duration" : 26
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "$(\"open\") https://antitreningi.ru",
       "time" : {
-        "start" : 1621989543677,
-        "stop" : 1621989544418,
-        "duration" : 741
+        "start" : 1622664699551,
+        "stop" : 1622664700249,
+        "duration" : 698
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "Проверка титула страницы.",
       "time" : {
-        "start" : 1621989544419,
-        "stop" : 1621989544429,
-        "duration" : 10
+        "start" : 1622664700249,
+        "stop" : 1622664700254,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,17 +66,17 @@
     }, {
       "name" : "Клик по кнопке.",
       "time" : {
-        "start" : 1621989544429,
-        "stop" : 1621989544680,
-        "duration" : 251
+        "start" : 1622664700254,
+        "stop" : 1622664700493,
+        "duration" : 239
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(\"By.xpath: //button[@data-type='login']\") click()",
         "time" : {
-          "start" : 1621989544430,
-          "stop" : 1621989544680,
-          "duration" : 250
+          "start" : 1622664700254,
+          "stop" : 1622664700493,
+          "duration" : 239
         },
         "status" : "passed",
         "steps" : [ ],
@@ -99,17 +99,17 @@
     }, {
       "name" : "Ввод логина или пароля.",
       "time" : {
-        "start" : 1621989544680,
-        "stop" : 1621989545069,
-        "duration" : 389
+        "start" : 1622664700493,
+        "stop" : 1622664701002,
+        "duration" : 509
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(\"By.xpath: //input\") send keys(a)",
         "time" : {
-          "start" : 1621989544680,
-          "stop" : 1621989544763,
-          "duration" : 83
+          "start" : 1622664700493,
+          "stop" : 1622664700631,
+          "duration" : 138
         },
         "status" : "passed",
         "steps" : [ ],
@@ -122,9 +122,9 @@
       }, {
         "name" : "$(\"By.xpath: //input\") send keys()",
         "time" : {
-          "start" : 1621989544763,
-          "stop" : 1621989544803,
-          "duration" : 40
+          "start" : 1622664700632,
+          "stop" : 1622664700670,
+          "duration" : 38
         },
         "status" : "passed",
         "steps" : [ ],
@@ -137,9 +137,9 @@
       }, {
         "name" : "$(\"By.xpath: //input\") set value(bogdantkachenko.dn@gmail.com)",
         "time" : {
-          "start" : 1621989544803,
-          "stop" : 1621989545069,
-          "duration" : 266
+          "start" : 1622664700671,
+          "stop" : 1622664701002,
+          "duration" : 331
         },
         "status" : "passed",
         "steps" : [ ],
@@ -162,17 +162,17 @@
     }, {
       "name" : "Клик по кнопке.",
       "time" : {
-        "start" : 1621989545069,
-        "stop" : 1621989545287,
-        "duration" : 218
+        "start" : 1622664701002,
+        "stop" : 1622664701231,
+        "duration" : 229
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(\"By.xpath: //button[@type='submit']\") click()",
         "time" : {
-          "start" : 1621989545069,
-          "stop" : 1621989545287,
-          "duration" : 218
+          "start" : 1622664701003,
+          "stop" : 1622664701231,
+          "duration" : 228
         },
         "status" : "passed",
         "steps" : [ ],
@@ -195,17 +195,17 @@
     }, {
       "name" : "Ввод логина или пароля.",
       "time" : {
-        "start" : 1621989545287,
-        "stop" : 1621989545586,
-        "duration" : 299
+        "start" : 1622664701231,
+        "stop" : 1622664701545,
+        "duration" : 314
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(\"By.xpath: //input\") send keys(a)",
         "time" : {
-          "start" : 1621989545287,
-          "stop" : 1621989545348,
-          "duration" : 61
+          "start" : 1622664701231,
+          "stop" : 1622664701305,
+          "duration" : 74
         },
         "status" : "passed",
         "steps" : [ ],
@@ -218,9 +218,9 @@
       }, {
         "name" : "$(\"By.xpath: //input\") send keys()",
         "time" : {
-          "start" : 1621989545348,
-          "stop" : 1621989545407,
-          "duration" : 59
+          "start" : 1622664701305,
+          "stop" : 1622664701355,
+          "duration" : 50
         },
         "status" : "passed",
         "steps" : [ ],
@@ -233,9 +233,9 @@
       }, {
         "name" : "$(\"By.xpath: //input\") set value(Qwerty123)",
         "time" : {
-          "start" : 1621989545407,
-          "stop" : 1621989545586,
-          "duration" : 179
+          "start" : 1622664701355,
+          "stop" : 1622664701545,
+          "duration" : 190
         },
         "status" : "passed",
         "steps" : [ ],
@@ -258,17 +258,17 @@
     }, {
       "name" : "Клик по кнопке.",
       "time" : {
-        "start" : 1621989545586,
-        "stop" : 1621989545729,
-        "duration" : 143
+        "start" : 1622664701546,
+        "stop" : 1622664701655,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(\"By.xpath: //button[@type='submit']\") click()",
         "time" : {
-          "start" : 1621989545586,
-          "stop" : 1621989545729,
-          "duration" : 143
+          "start" : 1622664701546,
+          "stop" : 1622664701655,
+          "duration" : 109
         },
         "status" : "passed",
         "steps" : [ ],
@@ -291,9 +291,9 @@
     }, {
       "name" : "Проверка титула страницы.",
       "time" : {
-        "start" : 1621989545729,
-        "stop" : 1621989549046,
-        "duration" : 3317
+        "start" : 1622664701655,
+        "stop" : 1622664705312,
+        "duration" : 3657
       },
       "status" : "passed",
       "steps" : [ ],
@@ -335,10 +335,10 @@
     "value" : "ru.antitreningi.tests.LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az33-519"
+    "value" : "fv-az83-954"
   }, {
     "name" : "thread",
-    "value" : "3459@fv-az33-519.main(1)"
+    "value" : "3869@fv-az83-954.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -360,197 +360,197 @@
     "history" : {
       "statistic" : {
         "failed" : 3,
-        "broken" : 0,
+        "broken" : 1,
         "skipped" : 0,
-        "passed" : 34,
+        "passed" : 53,
         "unknown" : 0,
-        "total" : 37
+        "total" : 57
       },
       "items" : [ {
-        "uid" : "a780b17dfac105a3",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/50//#testresult/a780b17dfac105a3",
+        "uid" : "7191f92a01e96807",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/70//#testresult/7191f92a01e96807",
         "status" : "passed",
         "time" : {
-          "start" : 1621986667460,
-          "stop" : 1621986673469,
-          "duration" : 6009
+          "start" : 1622578440954,
+          "stop" : 1622578446933,
+          "duration" : 5979
         }
       }, {
-        "uid" : "35216b611d9f1f8b",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/49//#testresult/35216b611d9f1f8b",
+        "uid" : "3d8da53f76f1b65b",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/69//#testresult/3d8da53f76f1b65b",
         "status" : "passed",
         "time" : {
-          "start" : 1621984461292,
-          "stop" : 1621984466908,
-          "duration" : 5616
+          "start" : 1622489262593,
+          "stop" : 1622489268135,
+          "duration" : 5542
         }
       }, {
-        "uid" : "7cb6600c229b747f",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/48//#testresult/7cb6600c229b747f",
+        "uid" : "34a655a0f810ae93",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/68//#testresult/34a655a0f810ae93",
         "status" : "passed",
         "time" : {
-          "start" : 1621983074633,
-          "stop" : 1621983079787,
-          "duration" : 5154
+          "start" : 1622401600722,
+          "stop" : 1622401606489,
+          "duration" : 5767
         }
       }, {
-        "uid" : "d8ad7ee563e5db76",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/47//#testresult/d8ad7ee563e5db76",
+        "uid" : "c45beaba73019409",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/67//#testresult/c45beaba73019409",
         "status" : "passed",
         "time" : {
-          "start" : 1621980721728,
-          "stop" : 1621980727522,
-          "duration" : 5794
+          "start" : 1622315403185,
+          "stop" : 1622315408920,
+          "duration" : 5735
         }
       }, {
-        "uid" : "d80f89bf5bcfe569",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/46//#testresult/d80f89bf5bcfe569",
+        "uid" : "a175b31e21d16962",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/66//#testresult/a175b31e21d16962",
         "status" : "passed",
         "time" : {
-          "start" : 1621979176446,
-          "stop" : 1621979182223,
-          "duration" : 5777
+          "start" : 1622228528896,
+          "stop" : 1622228534448,
+          "duration" : 5552
         }
       }, {
-        "uid" : "7f6db49207f48554",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/45//#testresult/7f6db49207f48554",
+        "uid" : "9554bbd4617f6a4d",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/65//#testresult/9554bbd4617f6a4d",
         "status" : "passed",
         "time" : {
-          "start" : 1621976939118,
-          "stop" : 1621976944735,
-          "duration" : 5617
+          "start" : 1622141531502,
+          "stop" : 1622141537985,
+          "duration" : 6483
         }
       }, {
-        "uid" : "54c41926a3e47f22",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/44//#testresult/54c41926a3e47f22",
+        "uid" : "ecb868939d24e5f9",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/64//#testresult/ecb868939d24e5f9",
         "status" : "passed",
         "time" : {
-          "start" : 1621975616985,
-          "stop" : 1621975622793,
-          "duration" : 5808
+          "start" : 1622054817039,
+          "stop" : 1622054822744,
+          "duration" : 5705
         }
       }, {
-        "uid" : "c69888bd0c8adc73",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/43//#testresult/c69888bd0c8adc73",
+        "uid" : "df77e9931f8381fd",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/63//#testresult/df77e9931f8381fd",
         "status" : "passed",
         "time" : {
-          "start" : 1621973905708,
-          "stop" : 1621973911416,
-          "duration" : 5708
+          "start" : 1622031465557,
+          "stop" : 1622031471556,
+          "duration" : 5999
         }
       }, {
-        "uid" : "85ad429a606d621c",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/42//#testresult/85ad429a606d621c",
+        "uid" : "f20ca7683e129aee",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/62//#testresult/f20ca7683e129aee",
         "status" : "passed",
         "time" : {
-          "start" : 1621972657370,
-          "stop" : 1621972663184,
-          "duration" : 5814
+          "start" : 1622029939503,
+          "stop" : 1622029945921,
+          "duration" : 6418
         }
       }, {
-        "uid" : "f19161728ad34a5c",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/41//#testresult/f19161728ad34a5c",
+        "uid" : "8e51b58ed5e907e5",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/61//#testresult/8e51b58ed5e907e5",
         "status" : "passed",
         "time" : {
-          "start" : 1621971047680,
-          "stop" : 1621971053393,
-          "duration" : 5713
+          "start" : 1622028056086,
+          "stop" : 1622028061860,
+          "duration" : 5774
         }
       }, {
-        "uid" : "2487dfc9bbce5da2",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/40//#testresult/2487dfc9bbce5da2",
+        "uid" : "edaa51837ed6ff08",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/60//#testresult/edaa51837ed6ff08",
         "status" : "passed",
         "time" : {
-          "start" : 1621967861666,
-          "stop" : 1621967868102,
-          "duration" : 6436
+          "start" : 1622025816109,
+          "stop" : 1622025822235,
+          "duration" : 6126
         }
       }, {
-        "uid" : "615c4b38d0f7fc97",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/39//#testresult/615c4b38d0f7fc97",
+        "uid" : "5e5157c91f5f63f0",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/59//#testresult/5e5157c91f5f63f0",
         "status" : "passed",
         "time" : {
-          "start" : 1621964919178,
-          "stop" : 1621964924923,
-          "duration" : 5745
+          "start" : 1622023286250,
+          "stop" : 1622023292613,
+          "duration" : 6363
         }
       }, {
-        "uid" : "eb6168f48e34d23b",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/38//#testresult/eb6168f48e34d23b",
+        "uid" : "7edc89e87c03e490",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/58//#testresult/7edc89e87c03e490",
         "status" : "passed",
         "time" : {
-          "start" : 1621960155934,
-          "stop" : 1621960161629,
-          "duration" : 5695
+          "start" : 1622019786102,
+          "stop" : 1622019791730,
+          "duration" : 5628
         }
       }, {
-        "uid" : "a580efaa4132a591",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/37//#testresult/a580efaa4132a591",
+        "uid" : "2340782ebe29bd85",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/57//#testresult/2340782ebe29bd85",
         "status" : "passed",
         "time" : {
-          "start" : 1621958042272,
-          "stop" : 1621958047916,
-          "duration" : 5644
+          "start" : 1622016465427,
+          "stop" : 1622016471383,
+          "duration" : 5956
         }
       }, {
-        "uid" : "b82e92a1e87764a8",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/36//#testresult/b82e92a1e87764a8",
+        "uid" : "cc17be3f9fc5629e",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/56//#testresult/cc17be3f9fc5629e",
         "status" : "passed",
         "time" : {
-          "start" : 1621955420585,
-          "stop" : 1621955426446,
-          "duration" : 5861
+          "start" : 1622013491225,
+          "stop" : 1622013497284,
+          "duration" : 6059
         }
       }, {
-        "uid" : "705a379b68843a29",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/35//#testresult/705a379b68843a29",
+        "uid" : "90f61e414cf208e6",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/55//#testresult/90f61e414cf208e6",
         "status" : "passed",
         "time" : {
-          "start" : 1621953244876,
-          "stop" : 1621953250501,
-          "duration" : 5625
+          "start" : 1622009389378,
+          "stop" : 1622009395062,
+          "duration" : 5684
         }
       }, {
-        "uid" : "f58c73553e280c80",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/34//#testresult/f58c73553e280c80",
+        "uid" : "4fc775b0267a6945",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/54//#testresult/4fc775b0267a6945",
         "status" : "passed",
         "time" : {
-          "start" : 1621951300499,
-          "stop" : 1621951306713,
-          "duration" : 6214
+          "start" : 1622006669450,
+          "stop" : 1622006675793,
+          "duration" : 6343
         }
       }, {
-        "uid" : "a60f883f96a915ce",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/33//#testresult/a60f883f96a915ce",
+        "uid" : "893eb11d9327cde5",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/53//#testresult/893eb11d9327cde5",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for title to be \"Все курсы\". Current title: \"АнтиТренинги - платформа для вашей онлайн-школы\" (tried for 10 second(s) with 200 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-325', ip: '10.1.0.79', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1047-azure', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+        "time" : {
+          "start" : 1622001908759,
+          "stop" : 1622001921179,
+          "duration" : 12420
+        }
+      }, {
+        "uid" : "41d808e499b8caa9",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/52//#testresult/41d808e499b8caa9",
         "status" : "passed",
         "time" : {
-          "start" : 1621948342051,
-          "stop" : 1621948347544,
-          "duration" : 5493
+          "start" : 1621997206724,
+          "stop" : 1621997211925,
+          "duration" : 5201
         }
       }, {
-        "uid" : "db2ba1d69f80ea1f",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/32//#testresult/db2ba1d69f80ea1f",
+        "uid" : "f1052d1f93979605",
+        "reportUrl" : "https://PressF5.github.io/Antitrening/51//#testresult/f1052d1f93979605",
         "status" : "passed",
         "time" : {
-          "start" : 1621944879236,
-          "stop" : 1621944884751,
-          "duration" : 5515
-        }
-      }, {
-        "uid" : "fffbe70023d14685",
-        "reportUrl" : "https://PressF5.github.io/Antitrening/31//#testresult/fffbe70023d14685",
-        "status" : "failed",
-        "statusDetails" : "Element not found {By.xpath: //div/button[@data-modal='#signin']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621943394000.1.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1621943394000.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/button[@data-modal='#signin']\"}",
-        "time" : {
-          "start" : 1621943389027,
-          "stop" : 1621943394498,
-          "duration" : 5471
+          "start" : 1621989543676,
+          "stop" : 1621989549046,
+          "duration" : 5370
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "f1052d1f93979605.json",
+  "source" : "86b84007f85d1a09.json",
   "parameterValues" : [ ]
 }
