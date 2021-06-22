@@ -4,26 +4,26 @@
     "name" : "ru.antitreningi.tests.LoginTest",
     "children" : [ {
       "name" : "invalidLoginAndPassword",
-      "uid" : "8743b8ea64e36206",
+      "uid" : "182916e382815bc6",
       "parentUid" : "99eff277806444912c3548bfca56883f",
       "status" : "passed",
       "time" : {
-        "start" : 1622664690631,
-        "stop" : 1622664699202,
-        "duration" : 8571
+        "start" : 1624384953395,
+        "stop" : 1624384960458,
+        "duration" : 7063
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "validLoginAndPassword",
-      "uid" : "86b84007f85d1a09",
+      "uid" : "ba54161c87e3101c",
       "parentUid" : "99eff277806444912c3548bfca56883f",
       "status" : "passed",
       "time" : {
-        "start" : 1622664699551,
-        "stop" : 1622664705312,
-        "duration" : 5761
+        "start" : 1624384960689,
+        "stop" : 1624384965824,
+        "duration" : 5135
       },
       "flaky" : false,
       "newFailed" : false,
