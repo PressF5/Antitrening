@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.xpath: //span[@class='sc-hBURRC eRJZMx']}\nExpected: text 'Wrong password'\nScreenshot: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1625421783819.0.png\nPage source: file:/home/runner/work/Antitrening/Antitrening/build/reports/tests/1625421783819.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='sc-hBURRC eRJZMx']\"}",
+      "children" : [ {
+        "name" : "invalidLoginAndPassword",
+        "uid" : "8935b9de2fb4a545",
+        "parentUid" : "ff5296bfb1c7c3c7367e16c5e4d026c9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625421772695,
+          "stop" : 1625421784229,
+          "duration" : 11534
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff5296bfb1c7c3c7367e16c5e4d026c9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for title to be \"Все курсы\". Current title: \"АнтиТренинги - платформа для вашей онлайн-школы\" (tried for 10 second(s) with 200 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-218', ip: '10.1.0.22', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1036-azure', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "validLoginAndPassword",
+        "uid" : "df9883c2eb457988",
+        "parentUid" : "1ac431e18ae0b4140d4695c77e1b21a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625421784446,
+          "stop" : 1625421796413,
+          "duration" : 11967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ac431e18ae0b4140d4695c77e1b21a1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
