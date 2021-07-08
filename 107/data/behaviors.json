@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "invalidLoginAndPassword",
+    "uid" : "197e81a8a572c730",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1625767374153,
+      "stop" : 1625767385653,
+      "duration" : 11500
+    },
+    "flaky" : true,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validLoginAndPassword",
+    "uid" : "cad7d29ec1810db5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1625767385762,
+      "stop" : 1625767397830,
+      "duration" : 12068
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
