@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://PressF5.github.io/Antitrening",
+  "buildOrder" : 109,
+  "buildName" : "GitHub Actions Run #1018436586",
+  "buildUrl" : "https://github.com/PressF5/Antitrening/actions/runs/1018436586",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://PressF5.github.io/Antitrening/109/"
+} ]
