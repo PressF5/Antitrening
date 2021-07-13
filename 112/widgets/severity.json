@@ -1,0 +1,21 @@
+[ {
+  "uid" : "747481f3281a1ae8",
+  "name" : "validLoginAndPassword",
+  "time" : {
+    "start" : 1626199376393,
+    "stop" : 1626199388181,
+    "duration" : 11788
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c600fea13c066f5b",
+  "name" : "invalidLoginAndPassword",
+  "time" : {
+    "start" : 1626199365450,
+    "stop" : 1626199376237,
+    "duration" : 10787
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
