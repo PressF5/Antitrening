@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jul 20 18:03:16 GMT 2021","Tue Jul 20 18:03:28 GMT 2021","12291","Antitreningi","Check login.","ru.antitreningi.tests.LoginTest","ru.antitreningi.tests.LoginTest","validLoginAndPassword","validLoginAndPassword",""
+"failed","Tue Jul 20 18:03:03 GMT 2021","Tue Jul 20 18:03:15 GMT 2021","12612","Antitreningi","Check login.","ru.antitreningi.tests.LoginTest","ru.antitreningi.tests.LoginTest","invalidLoginAndPassword","invalidLoginAndPassword",""
