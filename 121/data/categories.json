@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for title to be \"Все курсы\". Current title: \"АнтиТренинги - платформа для вашей онлайн-школы\" (tried for 10 second(s) with 200 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az36-632', ip: '10.1.0.102', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1036-azure', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "validLoginAndPassword",
+        "uid" : "d0ea2fed621bde2f",
+        "parentUid" : "54ca3185cc3daf2354c783d3566174cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626976997213,
+          "stop" : 1626977009486,
+          "duration" : 12273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54ca3185cc3daf2354c783d3566174cb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
