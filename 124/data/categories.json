@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "New session attempts retry count exceeded (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31.22 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-774', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1036-azure', java.version: '11.0.11'\nselenide.remote: http://localhost:4444/wd/hub\nDriver info: driver.version: SelenideDriver\nselenide.url: https://antitreningi.ru\nselenide.baseUrl: https://antitreningi.ru",
+      "children" : [ {
+        "name" : "invalidLoginAndPassword",
+        "uid" : "6b5775a01326e7e0",
+        "parentUid" : "51c770a2eab2e037a7f7a83fb8ab5140",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627236181191,
+          "stop" : 1627236213305,
+          "duration" : 32114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51c770a2eab2e037a7f7a83fb8ab5140"
+    }, {
+      "name" : "New session attempts retry count exceeded (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31.44 seconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-774', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1036-azure', java.version: '11.0.11'\nselenide.remote: http://localhost:4444/wd/hub\nDriver info: driver.version: SelenideDriver\nselenide.url: https://antitreningi.ru\nselenide.baseUrl: https://antitreningi.ru",
+      "children" : [ {
+        "name" : "validLoginAndPassword",
+        "uid" : "6fa4203d3958bb09",
+        "parentUid" : "36b1e2cc6fd3f33c09df4bf5bc465ffa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627236213436,
+          "stop" : 1627236244898,
+          "duration" : 31462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36b1e2cc6fd3f33c09df4bf5bc465ffa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
